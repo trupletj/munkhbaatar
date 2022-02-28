@@ -3,7 +3,7 @@
 <template>
   <!--Main Col-->
   <main
-    class="font-sans antialiased text-gray-900 leading-normal tracking-wider w-full h-full top-0 left-0 fixed"
+    class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover w-full h-full top-0 left-0 fixed"
     style="background-image: url('https://source.unsplash.com/1L71sPT5XKc')"
   >
     <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
