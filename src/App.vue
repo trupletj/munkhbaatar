@@ -4,7 +4,7 @@
   <!--Main Col-->
   <main
     class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover w-full h-full top-0 left-0 fixed"
-    style="background-image: url('https://source.unsplash.com/1L71sPT5XKc')"
+    style="background-image: url('https://source.unsplash.com/h0Vxgz5tyXA')"
   >
     <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
       <div
@@ -14,12 +14,16 @@
         <div class="p-4 md:p-12 text-center lg:text-left">
           <!-- Image for mobile view-->
           <div
-            class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-            style="background-image: url('https://source.unsplash.com/MP0IUfwrn0A')"
-          ></div>
+            class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center overflow-hidden"
+          >
+            <img src="./assets/img/profile.jpg" class="rounded-none lg:rounded-lg" />
+          </div>
 
-          <h1 class="text-3xl font-bold pt-8 lg:pt-0">Munkhbaatar Jambalsuren</h1>
+          <h1 class="text-3xl font-bold pt-8 lg:pt-0">Ж.Мөнхбаатар</h1>
           <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+          <p
+            class="pt-8 text-sm"
+          >Totally optional short description about yourself, what you do and so on.</p>
           <p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
             <svg
               class="h-4 fill-current text-green-700 pr-4"
@@ -29,8 +33,9 @@
               <path
                 d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"
               />
-            </svg> CEO Bayangol Mining
+            </svg> Баянгол уурхайн гүйцэтгэх захирал
           </p>
+
           <p
             class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
           >
@@ -42,11 +47,35 @@
               <path
                 d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z"
               />
-            </svg> Your Location - 25.0000° N, 71.0000° W
+            </svg> "Болдтөмөр Ерөө Гол" ХХК
           </p>
+          <a
+            :href="telNum"
+            class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 fill-current text-green-700 pr-4"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"
+              />
+            </svg>Утас: +976-99052271
+          </a>
           <p
-            class="pt-8 text-sm"
-          >Totally optional short description about yourself, what you do and so on.</p>
+            class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 fill-current text-green-700 pr-4"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"
+              />
+            </svg>Утас: +976-88880767
+          </p>
 
           <div class="pt-12 pb-8">
             <button
@@ -110,6 +139,19 @@
                 />
               </svg>
             </a>
+            <a class="link" href="#" data-tippy-content="@instagram_handle">
+              <svg
+                class="h-6 fill-current text-gray-600 hover:text-green-700"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Gmail</title>
+                <path
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
           </div>
 
           <!-- Use https://simpleicons.org/ to find the svg for your preferred product -->
@@ -120,7 +162,7 @@
       <div class="w-full lg:w-2/5">
         <!-- Big profile image for side bar (desktop) -->
         <img
-          src="https://source.unsplash.com/MP0IUfwrn0A"
+          src="./assets/img/profile.jpg"
           class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
         />
         <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
@@ -132,9 +174,7 @@
 export default {
   data() {
     return {
-      cssProps: {
-        backgroundImage: `url(./assets/img/mine.jpg)`
-      }
+      telNum: `tel:+97699052271`
     }
   }
 }
