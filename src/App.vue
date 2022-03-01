@@ -8,7 +8,7 @@
         id="profile"
         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white mx-2 lg:mx-0"
       >
-        <div class="p-4 md:p-8 text-left">
+        <div class="p-4 md:p-8">
           <!-- Image for mobile view-->
 
           <div class="flex flex-row">
@@ -18,14 +18,14 @@
               <img src="./assets/img/profilemin.jpg" class="rounded-none lg:rounded-lg" />
             </div>
           </div>
-          <h1 class="text-3xl font-bold pt-8 lg:pt-0">Ж.Мөнхбаатар</h1>
+          <div class="text-center">
+            <h1 class="text-2xl uppercase font-bold pt-8 lg:pt-0">Ж.Мөнхбаатар</h1>
 
+            <p class="text-xs font-bold">Баянгол уурхайн Гүйцэтгэх захирал</p>
+          </div>
+          <div class="mx-auto lg:mx-0 pt-2 border-b-2 border-bteg"></div>
           <p
-            class="text-xs font-bold flex items-center justify-start"
-          >Баянгол уурхайн Гүйцэтгэх захирал</p>
-          <div class="mx-auto lg:mx-0 pt-3 border-b-2 border-bteg"></div>
-          <p
-            class="py-3 text-sm"
+            class="py-3 text-sm text-center"
           >Totally optional short description about yourself, what you do and so on.</p>
 
           <div class="flex flex-row justify-between items-end">
