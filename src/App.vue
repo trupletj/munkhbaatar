@@ -2,8 +2,16 @@
 
 <template>
   <!--Main Col-->
+  <nav class="bg-white px-2 sm:px-4 py-2.5 rounded border-b-2 border-bteg">
+    <div class="max-w-4xl flex flex-row mx-auto">
+      <a href="#">
+        <img src="./assets/img/logo.png" class="h-12" />
+      </a>
+      <h1 class="font-bold text-bteg font-serif">БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h1>
+    </div>
+  </nav>
   <main>
-    <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+    <div class="max-w-4xl flex items-center h-auto lg:mt-16 flex-wrap mx-auto my-32 lg:my-0">
       <div
         id="profile"
         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white mx-2 lg:mx-0"
@@ -19,15 +27,20 @@
             </div>
           </div>
           <div class="text-center">
-            <h1 class="text-2xl uppercase font-bold pt-8 lg:pt-0">Ж.Мөнхбаатар</h1>
+            <h1 class="text-2xl text-gray-700 uppercase pt-8 lg:pt-0">Ж.Мөнхбаатар</h1>
 
-            <p class="text-xs font-bold">Баянгол уурхайн Гүйцэтгэх захирал</p>
+            <p class="text-xs tracking-normal text-gray-700">Баянгол уурхайн Гүйцэтгэх захирал</p>
           </div>
-          <div class="mx-auto lg:mx-0 pt-2 border-b-2 border-bteg"></div>
-          <p
+          <div class="mx-auto lg:mx-0 my-2 border-b-2 border-bteg"></div>
+          <!-- <p
             class="py-3 text-sm text-center"
-          >Totally optional short description about yourself, what you do and so on.</p>
-
+          >Totally optional short description about yourself, what you do and so on.</p>-->
+          <h1
+            class="text-base tracking-normal font-serif text-gray-900 uppercase"
+          >БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h1>
+          <p
+            class="text-xs mb-2 pr-5"
+          >Монгол Улс, Улаанбаатар хот,Чингэлтэй дүүрэг,5-р хороо, Баруун сэлбийн гудамж-20</p>
           <div class="flex flex-row justify-between items-end">
             <div>
               <a
@@ -95,9 +108,9 @@
             >Хадгалах</button>
             </div>-->
 
-            <div class="mt-6 lg:w-full flex flex-wrap justify-between">
+            <div class="mt-6 pl-3 flex flex-wrap justify-between">
               <a
-                class="link"
+                class="link mx-1"
                 href="https://www.facebook.com/munkhbaatar.solongo"
                 data-tippy-content="@facebook_handle"
                 target="blank"
@@ -115,7 +128,7 @@
                 </svg>
               </a>
               <a
-                class="link"
+                class="link mx-1"
                 href="https://www.instagram.com/j.munkhbaatar"
                 data-tippy-content="@instagram_handle"
               >
@@ -131,7 +144,7 @@
                   />
                 </svg>
               </a>
-              <a class="link" href="#" data-tippy-content="@instagram_handle">
+              <a class="link mx-1" href="#" data-tippy-content="@instagram_handle">
                 <svg
                   class="h-4 fill-current text-bteg"
                   role="img"
@@ -144,7 +157,7 @@
                   />
                 </svg>
               </a>
-              <a class="link" href="#" data-tippy-content="@instagram_handle">
+              <a class="link mx-1" href="#" data-tippy-content="@instagram_handle">
                 <svg
                   class="h-4 fill-current text-bteg"
                   role="img"
