@@ -6,4 +6,7 @@
   body {
     font-family: "Roboto Mono", monospace;
   }
+  h2 {
+    font-family: "Playfair Display", serif;
+  }
 }

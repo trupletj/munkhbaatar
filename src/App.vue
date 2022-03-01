@@ -3,14 +3,14 @@
 <template>
   <!--Main Col-->
   <nav class="bg-white px-2 sm:px-4 py-2.5 rounded border-b-2 border-bteg">
-    <div class="max-w-4xl flex flex-row mx-auto">
+    <div class="max-w-4xl mx-auto flex flex-row items-center">
       <a href="#">
-        <img src="./assets/img/logo.png" class="h-12" />
+        <img src="./assets/img/logo.png" class="h-10" />
       </a>
-      <h1 class="font-bold text-bteg font-serif">БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h1>
+      <h2 class="ml-3 font-bold text-bteg">БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h2>
     </div>
   </nav>
-  <main>
+  <main class>
     <div class="max-w-4xl flex items-center h-auto lg:mt-16 flex-wrap mx-auto my-32 lg:my-0">
       <div
         id="profile"
@@ -35,9 +35,9 @@
           <!-- <p
             class="py-3 text-sm text-center"
           >Totally optional short description about yourself, what you do and so on.</p>-->
-          <h1
-            class="text-base tracking-normal font-serif text-gray-900 uppercase"
-          >БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h1>
+          <h2
+            class="text-base tracking-normal font-bold text-gray-900 uppercase"
+          >БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h2>
           <p
             class="text-xs mb-2 pr-5"
           >Монгол Улс, Улаанбаатар хот,Чингэлтэй дүүрэг,5-р хороо, Баруун сэлбийн гудамж-20</p>
