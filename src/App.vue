@@ -35,7 +35,7 @@
           <!-- <p
             class="py-3 text-sm text-center"
           >Totally optional short description about yourself, what you do and so on.</p>-->
-          <h1 class="text-2xl text-gray-700 uppercase pt-8 lg:pt-0">БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h1>
+          <h1 class="text-xl text-gray-700 uppercase">БОЛД ТӨМӨР ЕРӨӨ ГОЛ ХХК</h1>
           <p
             class="text-xs tracking-normal text-gray-700"
           >Монгол Улс, Улаанбаатар хот,Чингэлтэй дүүрэг,5-р хороо, Баруун сэлбийн гудамж-20</p>
