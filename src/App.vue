@@ -6,7 +6,7 @@
     <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
       <div
         id="profile"
-        class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white mx-6 lg:mx-0"
+        class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white mx-2 lg:mx-0"
       >
         <div class="p-4 md:p-8 text-left">
           <!-- Image for mobile view-->
@@ -15,14 +15,14 @@
             <div
               class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center overflow-hidden"
             >
-              <img src="./assets/img/profile.jpg" class="rounded-none lg:rounded-lg" />
+              <img src="./assets/img/profilemin.jpg" class="rounded-none lg:rounded-lg" />
             </div>
           </div>
           <h1 class="text-3xl font-bold pt-8 lg:pt-0">Ж.Мөнхбаатар</h1>
 
           <p
-            class="text-base font-bold flex items-center justify-start"
-          >Баянгол уурхайн гүйцэтгэх захирал</p>
+            class="text-xs font-bold flex items-center justify-start"
+          >Баянгол уурхайн Гүйцэтгэх захирал</p>
           <div class="mx-auto lg:mx-0 pt-3 border-b-2 border-bteg"></div>
           <p
             class="py-3 text-sm"
